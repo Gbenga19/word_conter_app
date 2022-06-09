@@ -1,0 +1,1 @@
+web: gunicorn countword.wsgi:application --log-file -
